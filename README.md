@@ -1,5 +1,5 @@
 # dscrecover
-Instructions and script for recovering the installer code of DSC alarm systems. At the time of upload, this has only been tested on DSC PC1832 but it is assume to work on PC1616, PC1864, and potentially others. 
+Instructions and script for recovering the installer code of DSC alarm systems. At the time of upload, this has only been tested on DSC PC1832 but it is assumed to work on PC1616, PC1864, and potentially others. 
 
 Required components:
 * [DSC IT-100 integration module](https://www.dsc.com/alarm-security-products/IT-100%20-%20PowerSeries%20Integration%20Module/22) (these can sometimes be found on ebay for less than $30 USD plus shipping)

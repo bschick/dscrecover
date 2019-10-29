@@ -38,7 +38,7 @@ with serial.Serial(SERIALDEVICE, baudrate=9600, timeout=2) as ser:
             elif result[:3] == bytes('502','ascii'):
                print(f'!! error: {result[3:6]}')
 
-   def is_code():
+   def was_code():
        while True:
          result = ser.readline()
          if not result or 'Invalid Access  Code' in result.decode('ascii'):
@@ -66,7 +66,7 @@ with serial.Serial(SERIALDEVICE, baudrate=9600, timeout=2) as ser:
       for c in guess:
          press(c)
 
-      if is_code():
+      if was_code():
          print(f'{guess} is the code')
          break
       else:
